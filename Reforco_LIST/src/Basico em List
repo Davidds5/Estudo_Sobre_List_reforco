@@ -1,0 +1,22 @@
+✅ 3. Operações básicas com List
+Operação Exemplo
+
+Adicionar elemento	lista.add("Java");
+
+Acessar elemento por índice	lista.get(0);
+
+Tamanho da lista	lista.size();
+
+Verificar existência	lista.contains("Java");
+
+Remover por valor	lista.remove("Java");
+
+Remover por índice	lista.remove(0);
+
+Inserir em posição específica	lista.add(1, "C++");
+
+Percorrer com for-each	for(String item : lista) { ... }
+
+Limpar a lista	lista.clear();
+
+Ver se está vazia	lista.isEmpty();
