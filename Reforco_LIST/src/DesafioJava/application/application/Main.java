@@ -1,4 +1,4 @@
-package application;
+package DesafioJava.application.application;
 
 
 
@@ -39,6 +39,7 @@ public class Main {
                     int quantidade = sc.nextInt();
                     sc.nextLine();
 
+                    // aqui ja adicionou direto sem precisar cria o metodo construtor separado
                     productList.add(new Product(nome, preco, quantidade));
                     System.out.println("✅ Produto cadastrado com sucesso.");
                     break;
